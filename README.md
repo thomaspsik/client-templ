@@ -1,10 +1,10 @@
-# vv3-templ-rs-quasar
+# Vue 3 client with Quasar
 
-This template should help get you started developing with Vue 3, Vite and Quasar.
+This template should help get you started developing with Vue 3, Vite and Quasar. It contains 3 Google Fonts.
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Check my Profile for setup: https://vscode.dev/profile/github/ac852643a4faef8ba255ef97a5f8c823
 
 ## Customize configuration
 
