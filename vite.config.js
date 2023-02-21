@@ -7,6 +7,9 @@ import { quasar, transformAssetUrls } from '@quasar/vite-plugin';
 export default defineConfig({
   server: {
     port: 8080,
+    proxy: {
+      '/test': 'http://localhost:3000/',
+    },
   },
   plugins: [
     vue({
