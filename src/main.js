@@ -14,8 +14,11 @@ import router from './router';
 
 const app = createApp(App);
 
+// initialise store
 app.use(createPinia());
+// initialise router after store to enable store based router guards
 app.use(router);
+
 app.use(Quasar, {
   plugins: { Notify },
   iconSet: quasarIconSet,
