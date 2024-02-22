@@ -1,17 +1,18 @@
+// ------ setup version -------
 import { defineStore } from 'pinia';
+import { ref } from 'vue';
 
-// ------ option version -------
-export const useMyStore = defineStore('myStore', {
-  state: () => ({ message: 'Viel Erfolg!' }),
-  getters: {},
-  actions: {},
+export const useMyStore = defineStore('myStore', () => {
+  const message = ref('Viel Erfolg!');
+
+  return { message };
 });
 
-// ------ setup version -------
-// import { ref } from 'vue';
-
-// export const useMyStore = defineStore('myStore', () => {
-//   const message = ref('Viel Erfolg!');
-
-//   return { message };
+// ------ option version -------
+// import { defineStore } from 'pinia';
+//
+// export const useMyStore = defineStore('myStore', {
+//   state: () => ({ message: 'Viel Erfolg!' }),
+//   getters: {},
+//   actions: {},
 // });

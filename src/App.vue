@@ -4,9 +4,13 @@ import { ref } from 'vue';
 const leftDrawerOpen = ref(false);
 const rightDrawerOpen = ref(false);
 
-const toggleLeftDrawer = () => (leftDrawerOpen.value = !leftDrawerOpen.value);
-const toggleRightDrawer = () =>
-  (rightDrawerOpen.value = !rightDrawerOpen.value);
+const toggleLeftDrawer = () => {
+  leftDrawerOpen.value = !leftDrawerOpen.value;
+};
+
+const toggleRightDrawer = () => {
+  rightDrawerOpen.value = !rightDrawerOpen.value;
+};
 </script>
 
 <template>
