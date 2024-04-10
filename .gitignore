@@ -29,3 +29,4 @@ coverage
 fullup.cmd
 package copy 2.json
 package copy.json
+*.zip
