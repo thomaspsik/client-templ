@@ -8,11 +8,3 @@ export const useMyStore = defineStore('myStore', () => {
   return { message };
 });
 
-// ------ option version -------
-// import { defineStore } from 'pinia';
-//
-// export const useMyStore = defineStore('myStore', {
-//   state: () => ({ message: 'Viel Erfolg!' }),
-//   getters: {},
-//   actions: {},
-// });
