@@ -20,6 +20,7 @@ app.use(createPinia());
 app.use(router);
 
 app.use(Quasar, {
+  // biome-ignore lint: quasar functionality
   plugins: { Notify },
   iconSet: quasarIconSet,
 });

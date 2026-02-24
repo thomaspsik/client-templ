@@ -7,4 +7,3 @@ export const useMyStore = defineStore('myStore', () => {
 
   return { message };
 });
-
