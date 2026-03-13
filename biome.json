@@ -256,6 +256,13 @@
       "enabled": true
     }
   },
+  "html": {
+    "experimentalFullSupportEnabled": true,
+    "formatter": {
+      "enabled": true,
+      "indentScriptAndStyle": true
+    }
+  },
   "overrides": [
     {
       "includes": ["**/*.test.{js,ts,tsx}", "**/*.spec.{js,ts,tsx}", "**/__tests__/**"],
@@ -315,6 +322,21 @@
                 "maxAllowedComplexity": 12
               }
             }
+          }
+        }
+      }
+    },
+    {
+      "includes": ["**/*.svelte", "**/*.astro", "**/*.vue"],
+      "linter": {
+        "rules": {
+          "style": {
+            "useConst": "off",
+            "useImportType": "off"
+          },
+          "correctness": {
+            "noUnusedVariables": "off",
+            "noUnusedImports": "off"
           }
         }
       }
